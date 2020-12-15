@@ -1,0 +1,40 @@
+https://code.visualstudio.com/download
+https://nodejs.org/en/
+https://github.com/Aakashdeveloper
+
+////////////////
+React
+> Reactjs javascript framework that help to build single page application
+using component
+
+npm > node package manager
+
+////////////////////
+JSON > javascript Object notation
+way to represent data
+[
+    {
+        id:1,
+        name:'john'
+    },
+    {
+        id:2,
+        name:'Ankit'
+    }
+]
+
+///////////////
+package.JSON 
+> entry point
+> meta> description, name, details
+> script > start,build,test
+> package> packages for application
+
+///////////
+Step to generate package.json 
+///////////
+**NodeJs must be install in system
+> open terminal
+> npm init
+> answer all question
+> type "yes"
