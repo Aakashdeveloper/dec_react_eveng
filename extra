@@ -38,3 +38,73 @@ Step to generate package.json
 > npm init
 > answer all question
 > type "yes"
+
+>>>>>>>>>how to install
+local packages/dependency/node_modules
+dev 
+global
+
+///////////
+Step to install local packages
+///////////
+**NodeJs must be install in system
+> go inside the folder using terminal/cmd
+> npm i packagename / npm install packagename /npm i packagename --save
+
+
+>>>>When we get application from someone<<<<<<
+npm i //this will install all dependency
+
+///////////
+Step to install dev packages
+///////////
+**NodeJs must be install in system
+> go inside the folder using terminal/cmd
+> npm i packagename --save-dev
+
+
+///////////
+Step to install global packages
+///////////
+> only use for generation of app 
+> global dependency will not add in package.json
+> to global dependency you need admin access
+
+#window
+> open cmd as admin 
+> npm i -g packagename
+
+#mac/linux
+> open terminal
+> sudo npm i -g packagename
+
+///////////
+Step to generate react app
+///////////
+
+#window
+/////One Time////
+> open cmd as admin 
+> npm i -g create-react-app
+
+//Every Time you need new app//
+> go inside folder where you want app 
+> create-react-app appname
+
+#mac/linux
+> open terminal
+> sudoo npm i -g create-react-app
+
+> go inside folder where you want app 
+> create-react-app appname
+
+
+
+///////////
+Step to run app
+///////////
+> go inside app
+> npm start
+> http://localhost:3000/
+
+>>> component
