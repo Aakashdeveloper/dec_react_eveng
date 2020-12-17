@@ -108,3 +108,10 @@ Step to run app
 > http://localhost:3000/
 
 >>> component
+
+
+function add(a,b){
+    return a,b
+}
+
+
