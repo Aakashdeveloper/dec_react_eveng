@@ -1,0 +1,43 @@
+import React,{Component,Fragment} from 'react';
+
+class Header extends Component{
+    render(){
+        const mystyles={
+            header:{
+                backgroundColor:'tomato'
+            },
+            logo:{
+                fontSize:'30px',
+                color:'white',
+                textAlign:'center'
+            }
+        }
+        return(
+            <Fragment>
+                <header style={mystyles.header}>
+                    <div style={mystyles.logo}>Developer Funnel</div>
+                    <center>
+                        <input/>
+                        <div style={{color:'white'}}>User Text Here</div>
+                    </center>
+                    <hr/>
+                </header>
+            </Fragment>
+        )
+    }
+}
+
+export default Header;
+
+
+/*
+const Header = () => {
+    return(
+        <div>
+           <center>
+               <h1>Developer Funnel</h1>
+           </center>
+           <hr/>
+        </div>
+    )
+}*/

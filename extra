@@ -114,4 +114,17 @@ function add(a,b){
     return a,b
 }
 
+classcomponent
+> logical component
+> state can be maintained
+> Api call happen here
+> can be use for display also 
 
+
+functional component
+> dumb component
+> display
+> cannot maintain state 
+
+
+hooks component

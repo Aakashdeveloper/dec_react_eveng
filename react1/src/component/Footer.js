@@ -2,12 +2,12 @@ import React from 'react';
 
 const Footer = () => {
     return(
-        <div>
+        <React.Fragment>
             <hr/>
             <center>
                 <h3>&copy; NareshIT</h3>
             </center>
-        </div>
+        </React.Fragment>
     )
 }
 
