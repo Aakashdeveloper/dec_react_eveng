@@ -1,16 +1,29 @@
-import React from 'react';
+import React,{Component} from 'react';
 import Header from './Header';
-import Footer from './Footer'
+import Footer from './Footer';
+import JSON from './db.json';
+import NewsDisplay from './NewsDisplay'
 
-const Home = () => { 
-    return(
-        <React.Fragment>
-            <Header/>
-            <h1>My React Application</h1>
-            <h2>Developer Funnel</h2>
-            <Footer/>
-        </React.Fragment>
-    )
+class Home extends Component{
+    constructor(){
+        super()
+
+        this.state={
+            news:JSON
+        }
+    }
+
+    render(){
+        //console.log(this.state.news)
+        return(
+            <React.Fragment>
+                <Header/>
+                <NewsDisplay newsdata={this.state.news}/>
+                <Footer year="2021" month="Jan"/>
+            </React.Fragment>
+        )
+    }
 }
+
 
 export default Home;
