@@ -128,3 +128,63 @@ functional component
 
 
 hooks component
+
+state > act like a local variable
+      > any data interaction will happen through state
+      > scope of state will be in particular class component
+
+props > help to transfer state from one component to other
+> some default state help to get data from url
+
+
+map
+filter
+
+var city = ['Delhi','London','Amsterdam','Helsinki']
+undefined
+city.map((data)=>{return data})
+(4) ["Delhi", "London", "Amsterdam", "Helsinki"]
+city.map((data)=>{return `<p>${data}`})
+(4) ["<p>Delhi", "<p>London", "<p>Amsterdam", "<p>Helsinki"]
+city.map((data)=>{return `<p>${data}</p>`})
+(4) ["<p>Delhi</p>", "<p>London</p>", "<p>Amsterdam</p>", "<p>Helsinki</p>"]
+
+
+
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+var a = 10
+var b = `my age is ${a}`
+"my age is 10"
+
+var a  = [64,6,71,9,11,43,56,32,55]
+
+a.filter((data) => { return data>50})
+
+var a  = [64,6,71,9,11,43,56,32,55]
+
+a.filter((data) => { return data>50})
+(4) [64, 71, 56, 55]
+var a  = [64,6,71,9,11,43,56,32,55]
+undefined
+a.indexOf(64)
+0
+a.indexOf(68)
+-1
+a.indexOf(56)
+6
+a.indexOf(61)
+-1
+
+parent => child  props
+child  => parent  props with function
+
+function add(a,b){
+    return a+b
+}
+
+add(1,2)
+
+var add = (a,b) => {return a+b}
