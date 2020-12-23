@@ -26,7 +26,7 @@ class Home extends Component{
     }
 
     render(){
-        //console.log(this.state.news)
+        console.log(this.state.news)
         return(
             <React.Fragment>
                 <Header userText={(data) => {this.filterNews(data)}}/>
