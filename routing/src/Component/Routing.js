@@ -5,6 +5,7 @@ import Post from './Post';
 import Profile from './Profile';
 import Header from './Header';
 import Footer from './Footer';
+import PostDetails from './PostDetails';
 
 const Routing = () => {
     return(
@@ -12,7 +13,8 @@ const Routing = () => {
             <Header/>
             <Route exact path="/" component={Home}/>
             <Route path="/profile" component={Profile}/>
-            <Route path="/post" component={Post}/>
+            <Route exact path="/post" component={Post}/>
+            <Route path="/post/:topic" component={PostDetails}/>
             <Footer/>
         </BrowserRouter>
     )
