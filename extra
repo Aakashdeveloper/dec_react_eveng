@@ -214,3 +214,5 @@ default props
 (get) triptype>       https://developerfunnel.herokuapp.com/booking
 (get) bookingdetails> https://developerfunnel.herokuapp.com/allBooking
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
+
+npm i react-router-dom react-slick react-tabs
