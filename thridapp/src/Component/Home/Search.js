@@ -26,6 +26,18 @@ class Search extends Component{
         }
     }
 
+    renderHotel = (data) => {
+        if(data){
+            return data.map((item) => {
+                return(
+                    <option value={item._id}>
+                        {item.name} | {item.city_name}
+                    </option>
+                )
+            })
+        }
+    }
+
     handleChangeCity = (event) => {
         console.log(event.target.value)
         const cityid = event.target.value;
@@ -52,6 +64,7 @@ class Search extends Component{
                     </select>
                     <select className="reataurantsinput">
                         <option>----SELECT HOTEL----</option>
+                        {this.renderHotel(this.state.hotels)}
                     </select>
                 </div>
             </div>
