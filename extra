@@ -216,3 +216,5 @@ default props
 (post)placebooking >  https://developerfunnel.herokuapp.com/placeBook
 
 npm i react-router-dom react-slick react-tabs
+
+read > withRouter

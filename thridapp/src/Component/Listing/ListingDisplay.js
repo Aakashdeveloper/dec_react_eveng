@@ -3,9 +3,17 @@ import {Link} from 'react-router-dom';
 import './Listing.css';
 
 const ListingDisplay = (props) => {
-
+    console.log(props)
     const renderList =({listdata}) => {
         if(listdata){
+            console.log(listdata)
+            if(listdata.length==0){
+                return(
+                    <div>
+                        <h2>No Hotel Found</h2>
+                    </div>
+                )
+            }
             return listdata.map((item) => {
                 return(
                     <div className="item" id={item.id}>
