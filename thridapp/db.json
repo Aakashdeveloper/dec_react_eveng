@@ -1,0 +1,45 @@
+{
+  "booking": [
+    {
+      "id": 271,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "John",
+      "phone": "123534",
+      "count": "2"
+    },
+    {
+      "id": 272,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Aakash",
+      "phone": "123534",
+      "count": "2"
+    },
+    {
+      "id": 903,
+      "hotel_name": "DoubleTree by Hilton",
+      "name": "Shrya",
+      "phone": "887897",
+      "count": "2"
+    },
+    {
+      "id": 996,
+      "hotel_name": "Snow Bliss",
+      "name": "Keev",
+      "phone": "0909787878",
+      "count": "3"
+    },
+    {
+      "id": 826,
+      "hotel_name": "Ramada Plaza",
+      "name": "Isha",
+      "phone": "987987987",
+      "count": "2"
+    }
+  ],
+  "hotel": [
+    {
+      "id": 1,
+      "name": "A"
+    }
+  ]
+}
