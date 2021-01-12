@@ -6,6 +6,7 @@ import Profile from './Profile';
 import Header from './Header';
 import Footer from './Footer';
 import PostDetails from './PostDetails';
+import LifeCycle from './LifeCycle'
 
 const Routing = () => {
     return(
@@ -15,6 +16,7 @@ const Routing = () => {
             <Route path="/profile" component={Profile}/>
             <Route exact path="/post" component={Post}/>
             <Route path="/post/:topic" component={PostDetails}/>
+            <Route path="/lifeCycle" component={LifeCycle}/>
             <Footer/>
         </BrowserRouter>
     )
