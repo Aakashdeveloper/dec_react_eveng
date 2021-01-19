@@ -8,19 +8,19 @@ React = 3
 Mock API
 json-server
 React-JWT(Login Logout)-2
-////////////
-React-GarphQL-1
-React_hooks -1
 Depolyment
 -> MERN
 -> Docker
 -> heroku
 -> Nginx
+Github
+React-GarphQL-1
+////////////
+React_hooks -1
 Basic React Native=1
 React-Redux =2
 Testing
 React-Saga -1
-Github
 React-with-typescript-1
 --------NOT--------------
 API
@@ -270,3 +270,48 @@ json-server --watch db.json --port 8900
 (GET) => http://localhost:5000/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 (response) => {userinfo}
+
+//production Step
+npm run build
+
+
+https://git-scm.com/downloads
+
+///GIT
+clone 
+> git clone https://github.com/Aakashdeveloper/testdec
+
+>push code
+  >git add .
+  >git commit -m "comment"
+  >git push
+
+  >git pull
+
+
+>>>>New Repo<<<<
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/Aakashdeveloper/testjan.git
+git push -u origin master
+
+git checkout -b branchname
+git add .
+git commit -m "first commit"
+git push -u origin branchname
+
+//hold your changes
+git stash
+
+//apply your changes after pull
+git stash apply 
+
+////////////////////
+npm i apollo-boost apollo-graphql graphql react-apollo 
+
+/////////////
+npm i -g create-react-native-app 
+create-react-native-app mymobi 
+
+npm run web

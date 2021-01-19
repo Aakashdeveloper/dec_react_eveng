@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import axios from 'axios';
 import BookingDisplay from './bookingDisplay'
 
-const url = "http://localhost:8900/booking/"
+const url = process.env.URL||"http://localhost:8900/booking/"
 class ViewBooking extends Component{
     constructor(){
         super()
