@@ -315,3 +315,5 @@ npm i -g create-react-native-app
 create-react-native-app mymobi 
 
 npm run web
+
+npm i redux react-redux redux-logger
