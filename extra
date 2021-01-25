@@ -16,9 +16,9 @@ Depolyment
 Github
 React-GarphQL-1
 React_hooks -1
-////////////
 Basic React Native=1
 React-Redux =2
+////////////
 Testing
 React-Saga -1
 React-with-typescript-1
@@ -316,4 +316,5 @@ create-react-native-app mymobi
 
 npm run web
 
-npm i redux react-redux redux-logger
+npm i redux react-redux redux-logger react-router-dom redux-promise
+npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
