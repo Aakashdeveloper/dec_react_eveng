@@ -18,7 +18,6 @@ React-GarphQL-1
 React_hooks -1
 Basic React Native=1
 React-Redux =2
-////////////
 Testing
 React-Saga -1
 React-with-typescript-1
@@ -318,3 +317,39 @@ npm run web
 
 npm i redux react-redux redux-logger react-router-dom redux-promise
 npm i enzyme enzyme-adapter-react-16 react-addons-test-utils react-test-renderer
+
+////
+generator function
+//////
+function loop(userinput){
+    for(i=0;i<userinput;i++){
+        console.log(i)
+    }
+}
+loop(5)
+0
+1
+2
+3
+4
+
+function * loop(userinput){
+    for(i=0;i<userinput;i++){
+       yield i
+    }
+}
+undefined
+var data = loop(5)
+undefined
+data.next()
+{value: 0, done: false}
+data.next()
+{value: 1, done: false}
+data.next()
+{value: 2, done: false}
+data.next()
+{value: 3, done: false}
+data.next()
+{value: 4, done: false}
+data.next()
+{value: undefined, done: true}
